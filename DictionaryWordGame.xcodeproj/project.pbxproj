@@ -11,6 +11,9 @@
 		BA65E99129D32B9700CBC405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65E99029D32B9700CBC405 /* ContentView.swift */; };
 		BA65E99329D32B9800CBC405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65E99229D32B9800CBC405 /* Assets.xcassets */; };
 		BA65E99629D32B9800CBC405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65E99529D32B9800CBC405 /* Preview Assets.xcassets */; };
+		BA65E99F29D32D4500CBC405 /* valid-words.json in Resources */ = {isa = PBXBuildFile; fileRef = BA65E99C29D32D4400CBC405 /* valid-words.json */; };
+		BA65E9A029D32D4500CBC405 /* correct-words.json in Resources */ = {isa = PBXBuildFile; fileRef = BA65E99D29D32D4500CBC405 /* correct-words.json */; };
+		BA65E9A129D32D4500CBC405 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65E99E29D32D4500CBC405 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BA65E99029D32B9700CBC405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA65E99229D32B9800CBC405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA65E99529D32B9800CBC405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA65E99C29D32D4400CBC405 /* valid-words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "valid-words.json"; sourceTree = "<group>"; };
+		BA65E99D29D32D4500CBC405 /* correct-words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "correct-words.json"; sourceTree = "<group>"; };
+		BA65E99E29D32D4500CBC405 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				BA65E98E29D32B9700CBC405 /* DictionaryWordGameApp.swift */,
 				BA65E99029D32B9700CBC405 /* ContentView.swift */,
 				BA65E99229D32B9800CBC405 /* Assets.xcassets */,
+				BA65E99D29D32D4500CBC405 /* correct-words.json */,
+				BA65E99C29D32D4400CBC405 /* valid-words.json */,
+				BA65E99E29D32D4500CBC405 /* SwiftyJSON.swift */,
 				BA65E99429D32B9800CBC405 /* Preview Content */,
 			);
 			path = DictionaryWordGame;
@@ -125,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA65E9A029D32D4500CBC405 /* correct-words.json in Resources */,
+				BA65E99F29D32D4500CBC405 /* valid-words.json in Resources */,
 				BA65E99629D32B9800CBC405 /* Preview Assets.xcassets in Resources */,
 				BA65E99329D32B9800CBC405 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA65E9A129D32D4500CBC405 /* SwiftyJSON.swift in Sources */,
 				BA65E99129D32B9700CBC405 /* ContentView.swift in Sources */,
 				BA65E98F29D32B9700CBC405 /* DictionaryWordGameApp.swift in Sources */,
 			);
